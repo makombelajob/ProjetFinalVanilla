@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav>
-            <img src="../media/Logo.png" alt="Logo du site">
+            <img src="assets/Logo.png" alt="Logo du site">
             <div class="open">
                 <ul>
                     <li><a href="#">Accueil</a></li>
@@ -37,10 +37,18 @@
         <section>
             <div>
                 <h1>Inscription</h1>
-                <img src="../media/Logo.png" alt="Logo du site">
+                <img src="assets/Logo.png" alt="Logo du site">
             </div>
             <div class="form">
                 <form action="">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" placeholder="Entrez votre nom">
+                    </div>
+                    <div>
+                        <label for="firstname">Prénom</label>
+                        <input type="text" id="firstname" placeholder="Entrez votre prénom">
+                    </div>
                     <div>
                         <label for="email">Email</label>
                         <input type="text" id="email" placeholder="Entrez votre email">
@@ -52,11 +60,15 @@
                             <option value="students">Elèves</option>
                             <option value="teachers">Enseignants</option>
                         </select>
-
+                        
                     </div>
                     <div>
                         <label for="passwd">Password</label>
                         <input type="text" id="passwd" placeholder="Entrez votre mots de passe">
+                    </div>
+                    <div>
+                        <label for="passwdconfirm">Confirmer Mots de passe</label>
+                        <input type="text" id="passwdconfirm" placeholder="Confirmer le mots de passe">
                     </div>
                     <div>
                         <button type="submit">Inscription</button>

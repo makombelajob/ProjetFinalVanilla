@@ -1,22 +1,11 @@
+$text-color: black;
 :root{
-    font-size: 10px;
+    --text-color: #{$text-color};
 }
 img{
     width: 100%;
     vertical-align: middle;
 }
-header{
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-inline: 1.5rem;
-        img{
-            width: 5rem;
-            border-radius: 50%;
-        }
-        .open{
-            display: none;
-        }
-    }
+body{
+    font-family: "Ubuntu", sans-serif;
 }
