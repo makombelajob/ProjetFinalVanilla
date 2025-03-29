@@ -148,7 +148,31 @@ function formContact() {
 }
 
 function themedDark(){
-    console.dir("theme");
+    let currentTheme = localStorage.theme ?? "light";
+
+    const themeSwitch = document.querySelector("#theme-switch");
+
+    applyTheme();
+
+
+    themeSwitch.addEventListener("click", function() {
+        currentTheme = (currentTheme === "light") ? "dark" : "light";
+        localStorage.theme = currentTheme;
+
+        applyTheme();
+    });
+    function applyTheme() {
+        const iconTheme = `assets/sprites.svg#${currentTheme}`;
+
+        themeSwitch.querySelector("use").href.baseVal = iconTheme;
+
+        const CSSFile = (currentTheme === "light") ? "styles.css" : "styles-dark.css";
+
+        const linkStyle = document.querySelector("#style");
+        linkStyle.href = `css/${CSSFile}`;
+    }
+
+
 }
 
 // Call of functions

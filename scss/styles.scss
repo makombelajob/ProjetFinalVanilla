@@ -1,5 +1,5 @@
 @import 'mixins';
-$text-black: black;
+$text-black: rgb(0, 0, 0);
 $text-white: white;
 $moon: #e4e453;
 $bg-btn: rgba(124, 119, 119, 0.65);
@@ -334,7 +334,7 @@ body {
         #footer-main{
             margin-top: 2rem;
             color: $text-white;
-            background: black;
+            background: rgba(0, 0, 0, 0.76);
             @include grid1fr;
             padding: 0.3rem;
             nav {
@@ -390,6 +390,12 @@ body {
                     .our-act{
                         margin: 0;
                     }
+                }
+            }
+            #localisation{
+                iframe{
+                    width: 100%;
+                    border-radius: 1rem;
                 }
             }
         }

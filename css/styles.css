@@ -1,6 +1,6 @@
 :root {
   font-size: 12px;
-  --text-black: black;
+  --text-black: rgb(0, 0, 0);
   --text-white: white;
   --moon: #e4e453;
   --bg-btn: rgba(124, 119, 119, 0.65);
@@ -72,7 +72,7 @@ body header nav #burger {
   cursor: pointer;
 }
 body header nav #burger {
-  stroke: black;
+  stroke: rgb(0, 0, 0);
 }
 body main #hero h1 {
   font-size: 2rem;
@@ -100,7 +100,7 @@ body main #hero .slide .elements .element .caption {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: rgba(143, 143, 143, 0.692);
   border-radius: 1rem;
   padding: 1.2rem 0.3rem;
@@ -146,7 +146,7 @@ body main #card .card .card-content .voirPlus {
 body main #card .card .card-content .voirPlus a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   background: rgba(124, 119, 119, 0.65);
   padding: 1rem 1.8rem;
   cursor: pointer;
@@ -186,11 +186,11 @@ body main #activity #school-activity .our-act#plane {
   background-color: purple;
 }
 body main #activity #school-activity .our-act#swim {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: yellow;
 }
 body main #activity #school-activity .our-act#walk {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: aqua;
 }
 body main #activity #our-part {
@@ -334,7 +334,7 @@ body main #contact form #btnSubmit .btn:hover {
 body footer #footer-main {
   margin-top: 2rem;
   color: white;
-  background: black;
+  background: rgba(0, 0, 0, 0.76);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -391,6 +391,10 @@ body footer #footer-foot {
   body main #activity #school-activity .our-act {
     margin: 0;
   }
+  body main #localisation iframe {
+    width: 100%;
+    border-radius: 1rem;
+  }
 }
 @media (min-width: 1024px) {
   :root {
@@ -408,7 +412,7 @@ body footer #footer-foot {
     display: inline;
   }
   body header nav .open ul li a {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 }
 

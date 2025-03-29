@@ -1,6 +1,6 @@
 :root {
   font-size: 12px;
-  --text-black: black;
+  --text-black: rgb(0, 0, 0);
   --text-white: white;
   --moon: #e4e453;
   --bg-btn: rgba(124, 119, 119, 0.65);
@@ -20,7 +20,7 @@ img {
 body {
   font-family: "Ubuntu", sans-serif;
   margin-inline: 1rem;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 body header {
@@ -103,7 +103,7 @@ body main #hero .slide .elements .element .caption {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: rgba(143, 143, 143, 0.692);
   border-radius: 1rem;
   padding: 1.2rem 0.3rem;
@@ -126,7 +126,7 @@ body main #card h2 {
   margin-block: 1rem;
 }
 body main #card .card {
-  border-radius: 3px 3px;
+  border-radius: 3px;
   box-shadow: 1px 1px lightgrey;
   margin-block: 1.5rem;
   overflow: hidden;
@@ -149,7 +149,7 @@ body main #card .card .card-content .voirPlus {
 body main #card .card .card-content .voirPlus a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   background: rgba(124, 119, 119, 0.65);
   padding: 1rem 1.8rem;
   cursor: pointer;
@@ -179,7 +179,7 @@ body main #activity #school-activity .our-act p {
   font-size: 1.2rem;
   margin-block: 1rem;
 }
-body main #activity #school-activity .our-act#atom {
+body main #activity #school-activity .our-act#atom, body main #activity #school-activity .our-act#swim2 {
   background-color: blue;
 }
 body main #activity #school-activity .our-act#game {
@@ -189,11 +189,11 @@ body main #activity #school-activity .our-act#plane {
   background-color: purple;
 }
 body main #activity #school-activity .our-act#swim {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: yellow;
 }
 body main #activity #school-activity .our-act#walk {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: aqua;
 }
 body main #activity #our-part {
@@ -212,6 +212,13 @@ body main #activity #our-part figure {
 body main #activity #our-part figure img {
   width: 30px;
   border-radius: 50%;
+}
+body main #localisation h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-block: 2rem;
 }
 body main #contact h2 {
   font-size: 1.5rem;
@@ -331,10 +338,10 @@ body main #contact form #btnSubmit .btn:hover {
 body footer #footer-main {
   margin-top: 2rem;
   color: white;
-  background: black;
+  background: rgba(0, 0, 0, 0.76);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-radius: 1rem;
+  gap: 2rem;
   padding: 0.3rem;
 }
 body footer #footer-main nav {
@@ -359,6 +366,58 @@ body footer #footer-foot {
   margin-block: 2rem;
   font-size: 1.3rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  body {
+    margin-inline: 2rem;
+  }
+  body main #card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  body main #card h2 {
+    grid-column: 1/-1;
+  }
+  body main #card .card {
+    border-radius: 10px;
+  }
+  body main #activity #school-activity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 0;
+  }
+  body main #activity #school-activity .our-act {
+    margin: 0;
+  }
+  body main #localisation iframe {
+    width: 100%;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+  body header nav #burger {
+    display: none;
+  }
+  body header nav .open {
+    position: unset;
+    background-color: unset;
+    display: block;
+  }
+  body header nav .open ul li {
+    display: inline;
+  }
+  body header nav .open ul li a {
+    color: rgb(0, 0, 0);
+  }
 }
 
 /*# sourceMappingURL=styles-dark.css.map */
