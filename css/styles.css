@@ -5,6 +5,11 @@
   --moon: #e4e453;
   --bg-btn: rgba(124, 119, 119, 0.65);
   --menu: rgba(0, 0, 0, 0.438);
+  --atom-color: blue;
+  --game-color: green;
+  --plane-color: purple;
+  --swim-color: yellow;
+  --walk-color: aqua;
 }
 
 img {
@@ -144,6 +149,47 @@ body main #card .card .card-content .voirPlus a {
   cursor: pointer;
   border-radius: 1rem;
 }
+body main #activity > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-block: 2rem;
+}
+body main #activity #school-activity .our-act {
+  text-align: center;
+  color: white;
+  padding-block: 1.5rem;
+  margin-block: 2rem;
+  border-radius: 0.5rem;
+}
+body main #activity #school-activity .our-act h2 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 1rem;
+}
+body main #activity #school-activity .our-act p {
+  font-size: 1.2rem;
+  margin-block: 1rem;
+}
+body main #activity #school-activity .our-act#atom {
+  background-color: blue;
+}
+body main #activity #school-activity .our-act#game {
+  background-color: green;
+}
+body main #activity #school-activity .our-act#plane {
+  background-color: purple;
+}
+body main #activity #school-activity .our-act#swim {
+  color: black;
+  background-color: yellow;
+}
+body main #activity #school-activity .our-act#walk {
+  color: black;
+  background-color: aqua;
+}
 body main #activity #our-part {
   width: 80%;
   margin: auto;
@@ -160,6 +206,120 @@ body main #activity #our-part figure {
 body main #activity #our-part figure img {
   width: 30px;
   border-radius: 50%;
+}
+body main #contact h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-block: 2rem;
+}
+body main #contact .image {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+body main #contact .image img {
+  width: 40px;
+  border-radius: 50%;
+}
+body main #contact form #emailField,
+body main #contact form #sujetField,
+body main #contact form #msgField {
+  margin-block: 1rem;
+}
+body main #contact form #emailField label,
+body main #contact form #sujetField label,
+body main #contact form #msgField label {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body main #contact form #emailField .input-group,
+body main #contact form #sujetField .input-group,
+body main #contact form #msgField .input-group {
+  position: relative;
+}
+body main #contact form #emailField .input-group input,
+body main #contact form #emailField .input-group textarea,
+body main #contact form #sujetField .input-group input,
+body main #contact form #sujetField .input-group textarea,
+body main #contact form #msgField .input-group input,
+body main #contact form #msgField .input-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  margin-block: 1rem;
+  box-shadow: 2px 2px lightgrey;
+  border-radius: 5px;
+}
+body main #contact form #emailField .input-group input,
+body main #contact form #sujetField .input-group input,
+body main #contact form #msgField .input-group input {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+body main #contact form #emailField .input-group .valid,
+body main #contact form #emailField .input-group .invalid,
+body main #contact form #sujetField .input-group .valid,
+body main #contact form #sujetField .input-group .invalid,
+body main #contact form #msgField .input-group .valid,
+body main #contact form #msgField .input-group .invalid {
+  position: absolute;
+  top: 25%;
+  right: 2%;
+}
+body main #contact form #emailField .input-group .valid.valid,
+body main #contact form #emailField .input-group .invalid.valid,
+body main #contact form #sujetField .input-group .valid.valid,
+body main #contact form #sujetField .input-group .invalid.valid,
+body main #contact form #msgField .input-group .valid.valid,
+body main #contact form #msgField .input-group .invalid.valid {
+  display: none;
+}
+body main #contact form #emailField .input-group .valid.invalid,
+body main #contact form #emailField .input-group .invalid.invalid,
+body main #contact form #sujetField .input-group .valid.invalid,
+body main #contact form #sujetField .input-group .invalid.invalid,
+body main #contact form #msgField .input-group .valid.invalid,
+body main #contact form #msgField .input-group .invalid.invalid {
+  display: none;
+}
+body main #contact form #emailField#msgField .valid,
+body main #contact form #emailField#msgField .invalid,
+body main #contact form #sujetField#msgField .valid,
+body main #contact form #sujetField#msgField .invalid,
+body main #contact form #msgField#msgField .valid,
+body main #contact form #msgField#msgField .invalid {
+  top: 5%;
+  right: 2%;
+}
+body main #contact form #emailField#msgField textarea,
+body main #contact form #sujetField#msgField textarea,
+body main #contact form #msgField#msgField textarea {
+  font-size: 1.5rem;
+}
+body main #contact form #rgpdField label {
+  font-size: 1.3rem;
+}
+body main #contact form .feedback {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+  display: none;
+}
+body main #contact form #btnSubmit {
+  text-align: center;
+  margin-block: 1rem;
+}
+body main #contact form #btnSubmit .btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 2px 2px lightblue;
+  cursor: pointer;
+}
+body main #contact form #btnSubmit .btn:hover {
+  background-color: rgba(173, 216, 230, 0.55);
 }
 
 /*# sourceMappingURL=styles.css.map */

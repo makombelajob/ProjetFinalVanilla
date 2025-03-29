@@ -1,9 +1,15 @@
+@import 'mixins';
 $text-black: black;
 $text-white: white;
 $moon: #e4e453;
 $bg-btn: rgba(124, 119, 119, 0.65);
 $bg-part: rgba(70, 70, 159, 0.51);
 $menu: rgba(0, 0, 0, 0.438);
+$atom-color: blue;
+$game-color: green;
+$plane-color: purple;
+$swim-color: yellow;
+$walk-color: aqua;
 :root {
     font-size: 12px;
     --text-black: #{$text-black};
@@ -11,6 +17,11 @@ $menu: rgba(0, 0, 0, 0.438);
     --moon: #{$moon};
     --bg-btn: #{$bg-btn};
     --menu: #{$menu};
+    --atom-color: #{$atom-color};
+    --game-color: #{$game-color};
+    --plane-color: #{$plane-color};
+    --swim-color: #{$swim-color};
+    --walk-color: #{$walk-color};
 }
 img {
     width: 100%;
@@ -161,8 +172,44 @@ body {
             }
         }
         #activity{
-            #our-activity{
-
+            & > h2{
+                @include h2main;
+            }
+            #school-activity{
+                .our-act{
+                    text-align: center;
+                    color: $text-white;
+                    padding-block: 1.5rem;
+                    margin-block: 2rem;
+                    border-radius: 0.5rem;
+                    h2{
+                        font-size: 1.2rem;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        margin: 1rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        margin-block: 1rem;
+                    }
+                    &#atom{
+                        background-color: $atom-color;
+                    }
+                    &#game{
+                        background-color: $game-color;
+                    }
+                    &#plane{
+                        background-color: $plane-color;
+                    }
+                    &#swim{
+                        color: $text-black;
+                        background-color: $swim-color;
+                    }
+                    &#walk{
+                        color: $text-black;
+                        background-color: $walk-color;
+                    }
+                }
             }
             #our-part{
                 width: 80%;
@@ -182,6 +229,95 @@ body {
                     }
                 }
 
+            }
+        }
+        #contact{
+            h2{
+                @include h2main;
+            }
+            .image{
+                text-align: center;
+                margin-bottom: 1rem;
+                img{
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+            form{
+                #emailField,
+                #sujetField,
+                #msgField{
+                    margin-block: 1rem;
+                    label{
+                        font-size: 1.5rem;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                    }
+                    .input-group{
+                        position: relative;
+                        input,
+                        textarea{
+                            width: 100%;
+                            box-sizing: border-box;
+                            border: 1px solid lightblue;
+                            margin-block: 1rem;
+                            box-shadow: 2px 2px lightgrey;
+                            border-radius: 5px;
+                        }
+                        input{
+                            padding: 1rem;
+                            font-size: 1.5rem;
+                        }
+                        .valid,
+                        .invalid{
+                            position: absolute;
+                            top: 25%;
+                            right: 2%;
+                            &.valid{
+                                display: none;
+                            }
+                            &.invalid{
+                                display: none;
+                            }
+                        }
+                    }
+                    &#msgField{
+                        .valid,
+                        .invalid{
+                            top: 5%;
+                            right: 2%;
+                        }
+                        textarea{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                #rgpdField{
+                    label{
+                        font-size: 1.3rem;
+                    }
+                }
+                .feedback{
+                    text-align: center;
+                    font-size: 1.2rem;
+                    color: red;
+                    display: none;
+                }
+                #btnSubmit{
+                    text-align: center;
+                    margin-block: 1rem;
+                    .btn{
+                        padding: 1rem 2rem;
+                        border: none;
+                        border-radius: 1rem;
+                        box-shadow: 2px 2px lightblue;
+                        cursor: pointer;
+
+                    }
+                    .btn:hover{
+                        background-color: rgba(173, 216, 230, 0.55);
+                    }
+                }
             }
         }
     }
