@@ -11,6 +11,12 @@ function burger() {
         open.style.display = "none";
     });
 
+    const body = document.body;
+    body.addEventListener("click", function (e){
+       if(!closeBtn.contains(e.target) && !burger.contains(e.target) && !open.contains(e.target)){
+           open.style.display = "none";
+       }
+    });
 }
 function slide() {
     function forward() {
@@ -140,6 +146,13 @@ function formContact() {
 
     });
 }
+
+function themedDark(){
+    console.dir("theme");
+}
+
+// Call of functions
 formContact();
 burger();
 slide();
+themedDark();

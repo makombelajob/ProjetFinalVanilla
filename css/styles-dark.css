@@ -20,6 +20,8 @@ img {
 body {
   font-family: "Ubuntu", sans-serif;
   margin-inline: 1rem;
+  background-color: black;
+  color: white;
 }
 body header {
   margin: 1rem;
@@ -39,6 +41,7 @@ body header nav a img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border: 1px dashed white;
 }
 body header nav .open {
   display: none;
@@ -72,7 +75,7 @@ body header nav #burger {
   cursor: pointer;
 }
 body header nav #burger {
-  stroke: black;
+  stroke: white;
 }
 body main #hero h1 {
   font-size: 2rem;
@@ -224,6 +227,7 @@ body main #contact .image {
 body main #contact .image img {
   width: 40px;
   border-radius: 50%;
+  border: 1px dashed white;
 }
 body main #contact form #emailField,
 body main #contact form #sujetField,
@@ -357,4 +361,4 @@ body footer #footer-foot {
   text-align: center;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles-dark.css.map */
