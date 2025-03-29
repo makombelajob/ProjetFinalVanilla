@@ -123,7 +123,7 @@ body main #card h2 {
   margin-block: 1rem;
 }
 body main #card .card {
-  border-radius: 3px 3px;
+  border-radius: 3px;
   box-shadow: 1px 1px lightgrey;
   margin-block: 1.5rem;
   overflow: hidden;
@@ -176,7 +176,7 @@ body main #activity #school-activity .our-act p {
   font-size: 1.2rem;
   margin-block: 1rem;
 }
-body main #activity #school-activity .our-act#atom {
+body main #activity #school-activity .our-act#atom, body main #activity #school-activity .our-act#swim2 {
   background-color: blue;
 }
 body main #activity #school-activity .our-act#game {
@@ -209,6 +209,13 @@ body main #activity #our-part figure {
 body main #activity #our-part figure img {
   width: 30px;
   border-radius: 50%;
+}
+body main #localisation h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-block: 2rem;
 }
 body main #contact h2 {
   font-size: 1.5rem;
@@ -330,7 +337,7 @@ body footer #footer-main {
   background: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-radius: 1rem;
+  gap: 2rem;
   padding: 0.3rem;
 }
 body footer #footer-main nav {
@@ -355,6 +362,54 @@ body footer #footer-foot {
   margin-block: 2rem;
   font-size: 1.3rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  body {
+    margin-inline: 2rem;
+  }
+  body main #card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  body main #card h2 {
+    grid-column: 1/-1;
+  }
+  body main #card .card {
+    border-radius: 10px;
+  }
+  body main #activity #school-activity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 0;
+  }
+  body main #activity #school-activity .our-act {
+    margin: 0;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+  body header nav #burger {
+    display: none;
+  }
+  body header nav .open {
+    position: unset;
+    background-color: unset;
+    display: block;
+  }
+  body header nav .open ul li {
+    display: inline;
+  }
+  body header nav .open ul li a {
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

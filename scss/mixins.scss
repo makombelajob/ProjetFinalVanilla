@@ -5,3 +5,9 @@
   font-weight: 700;
   margin-block: 2rem;
 }
+
+@mixin grid1fr{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}

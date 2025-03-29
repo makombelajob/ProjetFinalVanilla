@@ -140,7 +140,7 @@ body {
                 margin-block: 1rem;
             }
             .card{
-                border-radius: 3px 3px;
+                border-radius: 3px;
                 box-shadow: 1px 1px lightgrey;
                 margin-block: 1.5rem;
                 overflow: hidden;
@@ -195,7 +195,8 @@ body {
                         font-size: 1.2rem;
                         margin-block: 1rem;
                     }
-                    &#atom{
+                    &#atom,
+                    &#swim2{
                         background-color: $atom-color;
                     }
                     &#game{
@@ -232,6 +233,11 @@ body {
                     }
                 }
 
+            }
+        }
+        #localisation{
+            h2{
+                @include  h2main;
             }
         }
         #contact{
@@ -329,9 +335,7 @@ body {
             margin-top: 2rem;
             color: $text-white;
             background: black;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            border-radius: 1rem;
+            @include grid1fr;
             padding: 0.3rem;
             nav {
                 margin-block: 1rem;
@@ -360,6 +364,62 @@ body {
             margin-block: 2rem;
             font-size: 1.3rem;
             text-align: center;
+        }
+    }
+}
+@media(min-width: 768px){
+    :root{
+        font-size: 14px;
+    }
+    body{
+        margin-inline: 2rem;
+        main{
+            #card{
+                @include grid1fr;
+                h2{
+                    grid-column: 1 / -1;
+                }
+                .card{
+                    border-radius: 10px;
+                }
+            }
+            #activity{
+                #school-activity{
+                    @include grid1fr;
+                    margin: 0;
+                    .our-act{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width: 1024px){
+    :root{
+        font-size: 16px;
+    }
+    body{
+        header{
+            nav{
+
+                #burger{
+                    display: none;
+                }
+                .open{
+                    position: unset;
+                    background-color: unset;
+                    display: block;
+                    ul{
+                        li{
+                            display: inline;
+                            a{
+                                color: $text-black;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
