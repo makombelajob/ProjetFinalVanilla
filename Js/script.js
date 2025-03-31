@@ -88,6 +88,8 @@ function formContact() {
        if(this.value.length < 5) {
            invalid.style.display = "block";
            feedback.style.display = "block";
+           valid.style.display = "none";
+
            sujetValid = false;
        }else{
            invalid.style.display = "none";

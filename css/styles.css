@@ -780,6 +780,11 @@ body footer #footer-foot {
     width: 100%;
     border-radius: 1rem;
   }
+  body main #signup,
+  body main #login {
+    max-width: 70%;
+    margin: auto;
+  }
 }
 @media (min-width: 1024px) {
   :root {

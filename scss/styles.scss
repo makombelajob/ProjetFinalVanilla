@@ -411,6 +411,11 @@ body {
                     border-radius: 1rem;
                 }
             }
+            #signup,
+            #login{
+                max-width: 70%;
+                margin: auto;
+            }
         }
     }
 }

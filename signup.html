@@ -12,7 +12,7 @@
             rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link id="style" rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" defer></script>
+    <script src="js/signup.js" defer></script>
     <title>tech-school</title>
 </head>
 <body>
@@ -45,7 +45,7 @@
     <section id="signup">
         <h1>Inscription</h1>
 
-        <form action="" id="formContact">
+        <form action="" id="formSignup">
             <div class="image">
                 <img src="assets/Logo.png" alt="Logo du site">
             </div>
@@ -132,6 +132,12 @@
                         <option value="students">élèves</option>
                         <option value="teachers">enseignants</option>
                     </select>
+                    <svg class="valid" width="30" height="30" xmlns:xlink="http://www.w3.org/2000/svg" fill="">
+                        <use href="assets/sprites.svg#valid"></use>
+                    </svg>
+                    <svg class="invalid" width="30" height="30" xmlns:xlink="http://www.w3.org/2000/svg" fill="">
+                        <use href="assets/sprites.svg#invalid"></use>
+                    </svg>
                 </div>
                 <div class="feedback">
                     Le sujet ne doit pas être vide (5 caractères minimum)
