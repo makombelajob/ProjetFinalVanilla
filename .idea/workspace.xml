@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddb1b52-ac6d-44d7-94a4-a3900189617d" name="Changes" comment="" />
+    <list default="true" id="5ddb1b52-ac6d-44d7-94a4-a3900189617d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +33,12 @@
     &quot;assignee&quot;: &quot;makombelajob&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/makombelajob/finalNormal.git&quot;,
-    &quot;accountId&quot;: &quot;25f7608b-100e-4105-b0be-a4e09e05d6c0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/makombelajob/tpfinal.git",
+    "accountId": "2008991b-f0c8-47de-8a18-7a6f920ec6c6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -49,9 +51,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ab8a7b0e&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;I:/GitHub/eedn-web/file-vert/Normal&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/GitHub/eedn-web/finalprojet/Normal&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -112,6 +114,8 @@
       <workItem from="1743355425588" duration="3025000" />
       <workItem from="1743359080854" duration="1191000" />
       <workItem from="1743360288395" duration="61000" />
+      <workItem from="1743425148525" duration="67000" />
+      <workItem from="1743425244752" duration="24000" />
     </task>
     <servers />
   </component>
