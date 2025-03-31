@@ -6,17 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5ddb1b52-ac6d-44d7-94a4-a3900189617d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles-dark.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles-dark.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles-dark.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles-dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

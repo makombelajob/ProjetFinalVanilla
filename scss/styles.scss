@@ -30,7 +30,7 @@ img {
 body {
     font-family: "Ubuntu", sans-serif;
     margin-inline: 1rem;
-    header {
+    header{
         margin: 1rem;
         box-shadow: 1px 1px lightgray;
         border-radius: 5px;
@@ -242,8 +242,11 @@ body {
                 @include  h2main;
             }
         }
-        #contact{
-            h2{
+        #contact,
+        #signup,
+        #login{
+            h2,
+            h1{
                 @include h2main;
             }
             .image{
@@ -257,7 +260,12 @@ body {
             form{
                 #emailField,
                 #sujetField,
-                #msgField{
+                #msgField,
+                #nameField,
+                #lastNameField,
+                #pwdField,
+                #pwdConfirmField,
+                #dbsField{
                     margin-block: 1rem;
                     label{
                         font-size: 1.5rem;
@@ -267,7 +275,8 @@ body {
                     .input-group{
                         position: relative;
                         input,
-                        textarea{
+                        textarea,
+                        select{
                             width: 100%;
                             box-sizing: border-box;
                             border: 1px solid lightblue;
@@ -275,7 +284,9 @@ body {
                             box-shadow: 2px 2px lightgrey;
                             border-radius: 5px;
                         }
-                        input{
+                        input,
+                        select{
+                            text-align: center;
                             padding: 1rem;
                             font-size: 1.5rem;
                         }
