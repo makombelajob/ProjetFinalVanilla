@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5ddb1b52-ac6d-44d7-94a4-a3900189617d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-dark.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-dark.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-dark.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-dark.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles-dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +44,12 @@
     &quot;assignee&quot;: &quot;makombelajob&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/makombelajob/tpfinal.git",
-    "accountId": "2008991b-f0c8-47de-8a18-7a6f920ec6c6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/makombelajob/tpfinal.git&quot;,
+    &quot;accountId&quot;: &quot;2008991b-f0c8-47de-8a18-7a6f920ec6c6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -116,6 +127,7 @@
       <workItem from="1743360288395" duration="61000" />
       <workItem from="1743425148525" duration="67000" />
       <workItem from="1743425244752" duration="24000" />
+      <workItem from="1743425449178" duration="307000" />
     </task>
     <servers />
   </component>

@@ -63,6 +63,8 @@ body {
                         margin-inline: 1.5rem;
                         a {
                             color: $text-white;
+                            font-size: 1.2rem;
+                            font-weight: 700;
                         }
                     }
                 }
@@ -408,15 +410,24 @@ body {
     body{
         header{
             nav{
-
+                justify-content: space-between;
+                align-items: center;
                 #burger{
                     display: none;
+                }
+                #close{
+                    display: none;
+                }
+                a{
+                    flex: 0;
                 }
                 .open{
                     position: unset;
                     background-color: unset;
                     display: block;
+
                     ul{
+                        margin: 0;
                         li{
                             display: inline;
                             a{
@@ -426,6 +437,10 @@ body {
                     }
                 }
             }
+        }
+        #contact{
+            max-width: 70%;
+            margin: auto;
         }
     }
 }
