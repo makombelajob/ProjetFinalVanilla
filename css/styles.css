@@ -716,6 +716,98 @@ body main #signup form #btnSubmit .btn:hover,
 body main #login form #btnSubmit .btn:hover {
   background-color: rgba(173, 216, 230, 0.55);
 }
+body #students_infos h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+body #students_infos .infos_general {
+  background-color: lightblue;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-block: 1rem;
+  border-radius: 1.5rem 0.5rem;
+  box-shadow: 1px 1px lightblue;
+}
+body #students_infos .infos_students,
+body #students_infos .points,
+body #students_infos .remarques {
+  background-color: lightgrey;
+  border-radius: 0.5rem 1.5rem;
+  margin: 1rem 3rem;
+  padding: 1rem;
+}
+body #students_infos .infos_students h2,
+body #students_infos .infos_students h3,
+body #students_infos .infos_students h4,
+body #students_infos .points h2,
+body #students_infos .points h3,
+body #students_infos .points h4,
+body #students_infos .remarques h2,
+body #students_infos .remarques h3,
+body #students_infos .remarques h4 {
+  padding-block: 0.3rem;
+  font-size: 1.3rem;
+}
+body #students_infos .infos_students h2 span,
+body #students_infos .infos_students h3 span,
+body #students_infos .infos_students h4 span,
+body #students_infos .points h2 span,
+body #students_infos .points h3 span,
+body #students_infos .points h4 span,
+body #students_infos .remarques h2 span,
+body #students_infos .remarques h3 span,
+body #students_infos .remarques h4 span {
+  text-transform: uppercase;
+}
+body #courses_details article {
+  background-color: #53d3e4;
+  margin-block: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+body #courses_details article h2 {
+  text-align: center;
+  font-weight: 700;
+}
+body #courses_details article aside h3 {
+  padding: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body #courses_details article aside p {
+  padding: 0.3rem;
+}
+body #courses_details article aside p:first-of-type {
+  color: rgb(153, 35, 35);
+  text-transform: uppercase;
+}
+body #students_contact {
+  text-align: center;
+  margin-top: 1rem;
+}
+body #students_contact h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body #students_contact form {
+  background-color: rgba(124, 119, 119, 0.65);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+body #students_contact form label {
+  font-size: 1.5rem;
+}
+body #students_contact form select,
+body #students_contact form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
 body footer #footer-main {
   margin-top: 2rem;
   color: white;
@@ -821,6 +913,4 @@ body footer #footer-foot {
     max-width: 70%;
     margin: auto;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

@@ -87,6 +87,7 @@ body {
     }
     main {
         #hero {
+            
             h1 {
                 font-size: 2rem;
                 text-align: center;
@@ -340,6 +341,90 @@ body {
                         background-color: rgba(173, 216, 230, 0.55);
                     }
                 }
+            }
+        }
+    }
+    #students_infos{
+        h1{
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .infos_general{
+            background-color: lightblue;
+            text-align: center;
+            font-size: 1.3rem;
+            padding-block: 1rem;
+            border-radius: 1.5rem 0.5rem;
+            box-shadow: 1px 1px lightblue;
+        }
+        .infos_students,
+        .points,
+        .remarques{
+            background-color: lightgrey;
+            border-radius: 0.5rem 1.5rem;
+            margin: 1rem 3rem;
+            padding: 1rem;
+            h2, 
+            h3, 
+            h4{
+                padding-block: 0.3rem;
+                font-size: 1.3rem;
+                span{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    #courses_details{
+        article{
+            background-color: #53d3e4;
+            margin-block: 0.5rem;
+            padding: 0.4rem;
+            border-radius: 1rem;
+            h2{
+                text-align: center;
+                font-weight: 700;
+            }
+            aside{
+                h3{
+                    padding: 0.3rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+                p{
+                    padding: 0.3rem;
+                    &:first-of-type{
+                        color: rgb(153, 35, 35);
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    #students_contact{
+        h2{
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        text-align: center;
+        margin-top: 1rem;
+        form{
+            background-color: $bg-btn;
+            margin-top: 1rem;
+            padding: 1rem;
+            label{
+                font-size: 1.5rem;
+            }
+            select,
+            textarea{
+                width: 100%;
+                box-sizing: border-box;
+                text-align: center;
+                padding: 0.5rem;
+                font-size: 1.4rem;
             }
         }
     }

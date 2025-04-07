@@ -1,3 +1,10 @@
+
+// Call of functions
+formContact();
+burger();
+slide();
+themedDark();
+
 function burger() {
     const open = document.querySelector(".open");
 
